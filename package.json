@@ -1,0 +1,26 @@
+{
+  "name": "vue-test-utils-watcher-bug",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "vue": "2.6.11",
+    "vue-template-compiler": "2.6.11",
+    "@vue/test-utils": "1.0.0-beta.29",
+    "jest": "24.9.0",
+    "babel-jest": "24.9.0",
+    "vue-jest": "4.0.0-beta.2",
+    "@babel/preset-env": "7.8.2"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.js$": "babel-jest",
+      ".*\\.(vue)$": "vue-jest"
+    },
+    "moduleFileExtensions": ["js", "vue"],
+    "moduleNameMapper": {
+      "^vue$": "vue/dist/vue.common.js"
+    }
+  }
+}
